@@ -151,3 +151,30 @@ th, td {
     border: 1px solid #000000;
     padding: 8px 16px;
 }
+
+/* CSS da pagina inicial */
+
+.banner {
+    width: 100%;
+}
+
+.titulo_principal {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.principal p {
+    margin-bottom: 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagembeneficios {
+    width: 60%;
+}
