@@ -252,8 +252,10 @@ th, td {
     margin: 2em auto;
 }
 
+/* Responsividade do site */
+
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .mapa_conteudo, .conteudo_beneficios, .video {
+    .caixa, .principal, .mapa_conteudo, .conteudo_beneficios, .video, .produtos, .produtos li {
         width: auto;
     }
     h1 {
@@ -267,5 +269,9 @@ th, td {
         width: 100%;
         margin-bottom: 20px;
     }
-    
+    .produtos li {
+        width: 90%;
+        margin: 20px;
+    }
+
 }
